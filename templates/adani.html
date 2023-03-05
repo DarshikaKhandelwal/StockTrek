@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Creative Website</title>
+    <style>
+      #imageContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+      }
+      
+      #image {
+        height: 60%;
+        margin-right: 20px;
+      }
+      
+      #writeUpContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      
+      .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        background-color: lightgray;
+      }
+      button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      body {
+        background: url("/static/assets/img/hh.webp");
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div id="imageContainer">
+      <img id="image" src="static\assets\img\ADANI.png" alt="Your Image">
+      <div id="writeUpContainer">
+        <h2>Adani Industries</h2>
+        <p style={color="white";}>One of the major players in India's expanding consumer finance market, Bajaj Finance was the first to offer interest-free EMI financing solutions in a variety of product categories, including consumer durables, lifestyle goods, and groceries. The organization has significant market penetration in SME, commercial, and rural lending in addition to consumer credit. To connect specialized applications with customer-facing interfaces like web portals, app infrastructure, and BOTS onto a microservices architecture supported by the platform as a service (PaaS) infrastructure, it has heavily invested in Application Programme Interface (API).
+          The Company accepts deposits and engages in lending operations. It has a sizable presence in both urban and rural India and a diverse lending portfolio across retail SMEs and commercial customers. It provides its customers with a variety of financial services products and takes public and corporate deposits. The Company was designated as an Asset Finance Company by the Reserve Bank of India.</p>
+      </div>
+    </div>
+    <script>
+        // You can add event listeners to the buttons here and perform actions when they are clicked.
+document.getElementById("button1").addEventListener("click", function() {
+  alert("Button 1 clicked");
+});
+
+document.getElementById("button2").addEventListener("click", function() {
+  alert("Button 2 clicked");
+});
+
+document.getElementById("button3").addEventListener("click", function() {
+  alert("Button 3 clicked");
+});
